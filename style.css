@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body, .container {
+    height: 100%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 70px 0;
+    background: #199efc;
+    align-items: center;
+}
+.block {
+    text-align: center;
+}
+.block span {
+    color: #fff;
+    font-size: 60px; 
+    font-family: Verdana;
+}
